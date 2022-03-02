@@ -11,12 +11,6 @@
 
 let s:windows = has('win32') || has('win64') || has('win16') || has('win95')
 
-if v:version >= 800
-	set cscopequickfix=s+,c+,d+,i+,t+,e+,g+,f+,a+
-else
-	set cscopequickfix=s+,c+,d+,i+,t+,e+,g+,f+
-endif
-
 let g:gutentags_auto_add_gtags_cscope = 0
 
 
